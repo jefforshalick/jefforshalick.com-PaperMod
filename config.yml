@@ -1,0 +1,50 @@
+baseURL: "https://jefforshalick.com"
+languageCode: en-us
+title: Jeff Orshalick
+theme: PaperMod
+
+params:
+  assets:
+    favicon: "/favicon.ico"
+
+  label:
+    text: Jeff Orshalick
+    icon: /jo-mark-dark.png
+    iconHeight: 30px
+  
+  homeInfoParams:
+    Title: I'm Jeff and I <span>design things</span>.
+    Content: "Hi 👋. I've been designing digital experiences for a little while now.
+    I also "
+
+  cover:
+    linkFullImages: true
+
+  # defaultTheme: dark
+  # defaultTheme: light
+  defaultTheme: auto
+  
+  disableThemeToggle: false
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: false
+
+  ShowShareButtons: false
+
+  ShowPostNavLinks: true
+
+menu:
+  main: 
+    - identifier: work
+      name: Work
+      url: /work/
+      weight: 10
+    - identifier: not-work
+      name: Not Work
+      url: /not-work/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
